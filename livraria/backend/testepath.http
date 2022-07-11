@@ -1,0 +1,7 @@
+PATCH http://localhost:3000/aluguel/1 HTTP/1.1
+content-type: application/json
+ 
+{
+    "nome_cliente": "joao",
+    "data_prevista": "07/06/2022"
+}

@@ -1,0 +1,13 @@
+POST http://localhost:8080/aluguel/post HTTP/1.1
+content-type: application/json
+ 
+{
+    "nome_cliente": "maria",
+    "nome_livro": "deitel",
+    "telefone": "71999999999",
+    "multa": "0",
+    "data_retirada": "2022-06-08",
+    "data_prevista":"2022-06-10",
+    "data_devolucao":"2022-06-09",
+    "caminho_img": "caminho"
+}
